@@ -45,6 +45,7 @@ node_modules
 .sass-cache
 .jekyll-metadata
 *.gem
+.jekyll-cache
 
 # direnv
 .direnv

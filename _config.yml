@@ -104,13 +104,22 @@ plugins:
   - jekyll-redirect-from
 
 exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
   - README.md
   - LICENSE.md
   - node_modules
   - package.json
   - package-lock.json
-  - Gemfile
-  - Gemfile.lock
+  - .direnv/
 
 kramdown:
   footnote_backlink: '&#x21a9;&#xfe0e;'

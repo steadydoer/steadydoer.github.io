@@ -1,7 +1,7 @@
 ---
 layout: tag-blog
-title: Python
-slug: python
+title: Lecture
+slug: lecture
 category: lecture
 menu: false
 order: 1
